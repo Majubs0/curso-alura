@@ -1,0 +1,165 @@
+:root {
+    --amarelo-principal: #F9B21B;
+    --azul-principal: #1B203D;
+    --botao-principal: #F9B21B;
+    --cor-defundo: #F2E8DF;
+    --fonte-titulo: "Oswald";
+    --font-subtitulo: "Myriad Pro Light";
+
+}
+
+body {
+
+    background-color: var(--cor-defundo);
+    color: var(--amarelo-principal);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container__barra__navegação {
+    background-color: var(--amarelo-principal);
+    padding: 2%;
+}
+
+.container__botão__Inicio {
+    margin-left: 4%;
+    text-decoration: none;
+    font-family: var(--font-subtitulo);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+    color: var(--cor-defundo)
+}
+
+.container__Botãocv{
+    margin-left: 74%;
+    text-decoration: none;
+    font-family: var(--font-subtitulo);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+    color: var(--cor-defundo)
+}
+
+.container__Botãosobremim{
+    margin-left: 2%;
+    text-decoration: none;
+    font-family: var(--font-subtitulo);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+    color: var(--cor-defundo)   
+}
+
+.principal {
+    background-image: url(img/Iconeimagem\ inicial.png);
+    background-repeat: no-repeat;
+    background-size: contain 20em;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: -1%;
+}
+
+
+.container_titulo {
+    margin-top: -0.15%;
+    margin-left: -0.5%;
+    font-family: var(--fonte-titulo);
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.container_subtitulo {
+    margin-top: -0.8%;
+    margin-left: -0.5%;
+    font-family: var(--font-subtitulo);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    color: var(--azul-principal)
+
+}
+
+.container {
+
+   height: 100vh;
+   display: grid;
+}
+
+.Botão_Backgrounds {
+    background-color: var(--botao-principal);
+    border-color: #F9B21B;
+    padding: 0.5em;
+    font-family: var(--font-subtitulo);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--azul-principal)
+    
+}
+
+.Botão_design {
+    background-color: var(--botao-principal);
+    border-color: #F9B21B;
+    padding: 0.5em;
+    margin-left: 0.5%;
+    font-family: var(--font-subtitulo);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--azul-principal)
+    
+}
+
+.container_caixa {
+    margin-top: 0.1%;
+    margin-left:5%;
+}
+
+.container_botões {
+    margin-top: -34%;
+    margin-left: 6%;
+}
+
+.container_footer {
+
+    background-color: var(--amarelo-principal);
+    padding: 2%;
+}
+
+.container_contato{
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--font-subtitulo);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    color: var(--cor-defundo)
+}
+
+.Botão_email {
+    margin-left: 0%;
+    text-decoration: none;
+    font-family: var(--font-subtitulo);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    color: var(--cor-defundo)
+
+}
+
+.container_ícones {
+    text-align: center;
+    margin-left: 4%;
+}
+
+.Icon_linkedin{
+    margin-right: 4%;
+}
